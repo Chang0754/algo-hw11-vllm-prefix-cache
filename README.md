@@ -255,3 +255,21 @@ README.md
 
 如果出現沒有 GPU、CUDA、或 vLLM 相關錯誤，先檢查第 3 步有沒有選 GPU。  
 如果 Colab 提示要 restart runtime，就重新啟動後，從「安裝套件」那格開始再跑一次。
+
+## 學生資訊 - 
+姓名：[你的姓名] -
+學號：[你的學號] -
+課程：3468 演算法 1142 
+## 實驗環境 - 平台：Google Colab T4
+- vLLM 版本：0.21.0
+- 模型："Qwen/Qwen2.5-0.5B-Instruct"
+- prompts 數：100
+- max_tokens：64 
+## 結果摘要 
+吞吐 (req/s) 加速:  3.55 倍
+吞吐 (tok/s) 加速:  3.55 倍
+總耗時下降:          71.9%  (4.46s → 1.25s)
+
+
+
+
